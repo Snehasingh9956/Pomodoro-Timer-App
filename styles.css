@@ -24,19 +24,19 @@ h1 {
   margin-bottom: 1rem;
 }
 
-p {
-  font-size: 1.2rem;
+input, button {
+  padding: 0.8rem;
+  width: 80%;
+  margin: 0.5rem 0;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }
 
 button {
-  padding: 1rem 1.5rem;
   background-color: #42a5f5;
   color: white;
-  border: none;
-  border-radius: 5px;
   cursor: pointer;
-  font-size: 1.2rem;
-  margin: 0.5rem;
 }
 
 button:disabled {
@@ -51,7 +51,7 @@ button:hover {
   margin-top: 1rem;
 }
 
-#pomodoro-count {
+#pomodoro-count, #daily-progress {
   font-weight: bold;
   font-size: 1.5rem;
 }
@@ -60,4 +60,10 @@ button:hover {
   font-size: 4rem;
   font-weight: bold;
   margin: 1.5rem 0;
+}
+
+#progress-tracking {
+  margin-top: 2rem;
+  border-top: 1px solid #ccc;
+  padding-top: 1rem;
 }
