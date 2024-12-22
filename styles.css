@@ -1,0 +1,63 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fafafa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.timer-container {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+button {
+  padding: 1rem 1.5rem;
+  background-color: #42a5f5;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  margin: 0.5rem;
+}
+
+button:disabled {
+  background-color: #b0bec5;
+}
+
+button:hover {
+  background-color: #2196f3;
+}
+
+.controls {
+  margin-top: 1rem;
+}
+
+#pomodoro-count {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+#timer-display {
+  font-size: 4rem;
+  font-weight: bold;
+  margin: 1.5rem 0;
+}
